@@ -1,0 +1,12 @@
+thriller=["Dark","Mindhunter","Parasite","Inception","Insidious","Interstellar","Prison Break","Money Heist","War","Jack Ryan"]
+comedy=["Friends","3Idiots","Brooklyn 99","How I Met Your Mother","Rick And Morty","The Big Bang Theory","The Office","Space Force"]
+
+X=input().title()
+
+if X in thriller:
+  print("It is a Thriller")
+
+elif X in comedy:
+  print("It is a Comedy")
+else:
+  print("It's neither comedy nor thriller") 
